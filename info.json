@@ -1,0 +1,23 @@
+{
+    "proto_path":"/home/shashank/Documents/conventional_image_processing_based_fusion/Model/deploy.prototxt",
+    "model_path":"/home/shashank/Documents/conventional_image_processing_based_fusion/Model/hed_pretrained_bsds.caffemodel",
+
+    "visible_image_path":"/home/shashank/Documents/conventional_image_processing_based_fusion/DJI_0020_W.JPG",
+    "ir_image_path":"/home/shashank/Documents/conventional_image_processing_based_fusion/DJI_0021_T.JPG",
+    
+    "camera_params":{
+        "fov_horizontal_degrees": 67.2,
+        "fov_vertical_degrees": 48,
+        "distance_m": 7,
+        "pitch_degrees": 0,
+        "tx": 0,
+        "tz": 0.01
+    },
+
+    "threshold": "93",
+
+    
+    "image_Regis" : false,
+    "Detection" : "edge_detection"
+    
+}
